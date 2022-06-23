@@ -67,6 +67,18 @@ body {
 
 #main-footer {
     background-color: white;
-    padding-left: 50px;
+    text-align: center;
+    font-weight: bold;
 }
 
+@media(max-width:600px) {
+    #main {
+        float:none;
+        width:100%;
+    }
+
+    #sidebar {
+        float:none;
+        width:100%;
+    }
+}
