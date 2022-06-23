@@ -54,7 +54,19 @@ body {
 
 #main {
     float:left;
-    width:70%;
-    padding: 0px 5px;
+    width:60%;
+    padding: 2px 5px;
     box-sizing: border-box;
 }
+
+#sidebar {
+    float: right;
+    width: 35%;
+    box-sizing: border-box;
+}
+
+#main-footer {
+    background-color: white;
+    padding-left: 50px;
+}
+
