@@ -1,7 +1,7 @@
 body{
     background-color: beige;
     color: brown;
-    font-family: "Comic Sans MS", Helvetica, Arial;
+    font-family: Arial, Arial, Helvetica, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
     margin: 0;
@@ -10,5 +10,10 @@ body{
 .container {
     width:80%;
     margin:auto;
-    
+    overflow: hidden;
+}
+
+#main-header {
+    background-color: coral;
+    color: white;
 }
